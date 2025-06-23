@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Dani Países</title>
+    <!-- Inclui o Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Estilo para a fonte Inter */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Estilo para o contorno amarelo do texto */
+        .text-outline-yellow {
+            text-shadow: 1px 1px 0 #FFD700, -1px -1px 0 #FFD700, 1px -1px 0 #FFD700, -1px 1px 0 #FFD700;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4 bg-cover bg-center bg-fixed"
+      style="background-image: url('https://gcdnb.pbrd.co/images/Y00ulgY8xCGP.jpg?o=1');">
+
+    <div class="w-full max-w-md md:max-w-lg lg:max-w-xl space-y-6">
+        <!-- Profile Header: Photo, Name and Title -->
+        <div class="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-6 p-4 bg-black bg-opacity-20 rounded-lg shadow-xl">
+            <!-- Profile Picture -->
+            <div class="flex-shrink-0">
+                <img
+                    class="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover shadow-md border-2 border-yellow-400"
+                    src="https://gcdnb.pbrd.co/images/6Z4poOg2Cvru.jpg?o=1"
+                    alt="Foto de Perfil Dani Países"
+                    onerror="this.onerror=null;this.src='https://placehold.co/120x120/FFD700/000000?text=Erro';"
+                />
+            </div>
+            <!-- Name and Title -->
+            <div class="flex-grow text-center sm:text-left">
+                <h1
+                    class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-800 font-inter border-b-2 border-gray-300 pb-1 text-outline-yellow"
+                >
+                    Dani Países
+                </h1>
+                <p
+                    class="text-xl md:text-2xl lg:text-3xl font-bold text-gray-700 mt-1 font-inter text-outline-yellow"
+                >
+                    Animador, fã de Pokémon, YouTube
+                </p>
+            </div>
+        </div>
+
+        <!-- Biography Section -->
+        <div class="mb-8 p-4 bg-black bg-opacity-20 rounded-lg shadow-xl">
+            <h2
+                class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-2 font-inter text-outline-yellow"
+            >
+                Biografia
+            </h2>
+            <p
+                class="text-gray-700 font-bold text-3xl md:text-4xl lg:text-5xl border-b-2 border-gray-300 pb-1 font-inter text-outline-yellow"
+            >
+                Sou um menino com 13 anos com 3 comorbidades TEA TDAH TOD e gostaria de mostrar as pessoas as minhas dificuldades e como lidar com ela, para poder ajudar outras pessoa.
+                Eu também gosto de Pokémon Mario Zelda e entre outras franquias da Nintendo
+            </p>
+        </div>
+
+        <!-- Social Media Buttons -->
+        <div class="p-6 bg-black bg-opacity-20 rounded-lg shadow-xl flex flex-col items-center space-y-4">
+            <a
+                href="https://www.youtube.com/@DaniPaises"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center justify-center px-8 py-4 w-full sm:w-64 border border-transparent text-lg font-medium rounded-full shadow-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 transition duration-300 ease-in-out transform hover:scale-105"
+            >
+                <!-- YouTube Icon (Inline SVG) -->
+                <svg class="h-6 w-6 mr-3" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M10 15.112v-6.22l5.5 3.11zM21.5 7.127a2.592 2.592 0 00-1.84-1.838C18.667 5 12 5 12 5s-6.667 0-7.66 0.289a2.592 2.592 0 00-1.838 1.838C2 8.165 2 12 2 12s0 3.835 0.289 4.873a2.592 2.592 0 001.838 1.838C5.333 19 12 19 12 19s6.667 0 7.66-0.289a2.592 2.592 0 001.838-1.838C22 15.835 22 12 22 12s0-3.835-0.289-4.873z" />
+                </svg>
+                YouTube
+            </a>
+            <a
+                href="https://discord.gg/mA2qKNnn"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center justify-center px-8 py-4 w-full sm:w-64 border border-transparent text-lg font-medium rounded-full shadow-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-300 ease-in-out transform hover:scale-105"
+            >
+                <!-- Discord Icon (Image from URL) -->
+                <img
+                    class="h-6 w-6 mr-3"
+                    src="https://gcdnb.pbrd.co/images/U4ULQ1sMdbcM.png?o=1"
+                    alt="Ícone do Discord"
+                    onerror="this.onerror=null;this.src='https://placehold.co/24x24/1F2937/FFFFFF?text=DC';"
+                />
+                Discord
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
+
